@@ -1,5 +1,7 @@
 # python
-A simple website about learning python :)
+A simple website about learning python 🐍
+
+![Python - ChatGPT GitHub Pages](https://user-images.githubusercontent.com/16403754/212757916-3461088f-e080-446c-8229-dd749a4c0063.png)
 
 This website includes a basic HTML structure, with a head that includes the title of the website and the CSS styles for the light and dark themes, as well as additional CSS styles for the layout and typography. In the body, there is a heading and a paragraph that welcomes the user to the website. Additionally, there is a button that, when clicked, will call a JavaScript function to toggle between the light and dark themes by adding and removing classes on the body element.
 
