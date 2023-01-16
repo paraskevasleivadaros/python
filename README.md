@@ -1,5 +1,5 @@
-# python
-A simple website about learning python 🐍
+# Python
+A simple website about learning Python 🐍
 
 ![Python - ChatGPT GitHub Pages](https://user-images.githubusercontent.com/16403754/212757916-3461088f-e080-446c-8229-dd749a4c0063.png)
 
