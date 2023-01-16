@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learn Python</title>
+    <style>
+      /* Dark theme styles */
+      body.dark-theme {
+        background-color: black;
+        color: white;
+      }
+      /* Light theme styles */
+      body.light-theme {
+        background-color: white;
+        color: black;
+      }
+      /* Additional styles */
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .topic {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body class="light-theme">
+    <div class="container">
+      <h1>Learn Python</h1>
+      <p>Welcome to our website for learning Python! Here you will find resources and tutorials for learning the basics of Python, as well as more advanced topics.</p>
+      <button onclick="toggleTheme()">Toggle Theme</button>
+      <hr>
+      <div class="topic">
+        <h2>Getting Started</h2>
+        <p>Learn how to install Python, setup a development environment, and run your first program.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div class="topic">
+        <h2>Basic Syntax</h2>
+        <p>Learn the basic syntax of Python, including variables, data types, loops, and control flow.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div class="topic">
+        <h2>Advanced Topics</h2>
+        <p>Learn about more advanced topics in Python, such as object-oriented programming, file handling, and working with databases.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+    <script>
+      function toggleTheme() {
+        var body = document.querySelector("body");
+        if (body.classList.contains("light-theme")) {
+          body.classList.remove("light-theme");
+          body.classList.add("dark-theme");
+        } else {
+          body.classList.remove("dark-theme");
+          body.classList.add("light-theme");
+        }
+      }
+    </script>
+  </body>
+</html>
