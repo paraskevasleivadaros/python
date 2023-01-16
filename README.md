@@ -9,4 +9,4 @@ This website includes a basic HTML structure, with a head that includes the titl
 
 You will find that the additional content includes three different sections. Each section has a topic title and a short description of the topic and a link to learn more. The container class centers the content of the website and the topic class gives a margin to separate them.
 
-[MIT License](https://choosealicense.com/licenses/mit/)
+<a href="https://choosealicense.com/licenses/mit/" target="_blank">MIT License</a>
